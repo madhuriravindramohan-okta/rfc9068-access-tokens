@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": [ "es2015" ],
+    "target": "es6",
+    "moduleResolution" : "node",
+    "rootDir": "src/",
+    "sourceMap": true
+  },
+  "includes" : [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

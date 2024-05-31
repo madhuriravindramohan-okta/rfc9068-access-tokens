@@ -1,0 +1,31 @@
+{
+  "name": "rfc9068-access-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js",
+    "debug": "node --inspect=0.0.0.0:5860 --inspect-brk server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/madhuriravindramohan-okta/rfc9068-access-tokens.git"
+  },
+  "author": "madhuriravindramohan-okta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhuriravindramohan-okta/rfc9068-access-tokens/issues"
+  },
+  "homepage": "https://github.com/madhuriravindramohan-okta/rfc9068-access-tokens#readme",
+  "dependencies": {
+    "auth0": "^4.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-oauth2-jwt-bearer": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "undici": "^6.18.1"
+  }
+}
